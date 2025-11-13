@@ -289,6 +289,13 @@ app.post("/updatecartitem", async (req, res) => {
 })
 
 
+
+
+
+
+
+
+
 // passwordsetting-------------------------
 app.post("/password", async (req, res) => {
     let a = req.body.password
