@@ -358,3 +358,27 @@ app.post("/deleteproductitem",async(req,res)=>{
     let a=await products.findOneAndDelete({"id":req.body.product.id})
     // console.log(req.body)
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.post("/",(req,res)=>{
+    res.json({
+        status:true
+    })
+})
