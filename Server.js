@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({}))
 
 // mongodb -------------------------
 const { mongoose } = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/Dmart").then((res) => {
+mongoose.connect("mongodb+srv://laxmi:kcKwXk8xRVDYFwnD@cluster0.lfxbt0b.mongodb.net/Dmart").then((res) => {
     console.log("laxmi errorrrr....")
 }).catch((err) => {
     console.log(err)
