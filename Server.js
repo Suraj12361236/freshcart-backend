@@ -9,27 +9,6 @@ app.listen(5001, () => {
     console.log("server start")
 })
 
-// display the msg -------
-app.get("/", (req, res) => {
-    res.send("hello node")
-})
-
-
-
-// install nodemon server package :- for autoupdate
-// nodemon :- npm i -g nodemon --save
-
-
-// embeded java script : 
-// .ejs :- npm i ejs
-//  use ejs :
-app.set("view engine", "ejs")
-
-// call the ejs file :
-app.get("/home", (req, res) => {
-    res.render("home")
-})
-
 
 // cors -------------------
 cors = require("cors")
