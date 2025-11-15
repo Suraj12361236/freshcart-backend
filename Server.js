@@ -349,3 +349,12 @@ app.post("/deleteaccount", async (req, res) => {
     }
 
 })
+
+
+
+
+// deleteproductitem-------------------------------------
+app.post("/deleteproductitem",async(req,res)=>{
+    let a=await products.findOneAndDelete({"id":req.body.product.id})
+    // console.log(req.body)
+})
